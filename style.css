@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #050505;
+}
+
+.spline-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.spline-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: calc(100% + 120px); /* Oversize to hide watermark at bottom */
+    border: none;
+    pointer-events: auto;
+}
+
+/* Watermark Concealment Overlay */
+.watermark-mask {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 60px;
+    background: #e5e5e5;
+    pointer-events: none;
+    z-index: 100;
+}
+
+/* Floating Link Button Styles */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.portal-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    text-align: center;
+}
+
+.portal-btn {
+    position: relative;
+    padding: 20px 50px;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.portal-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #10B981;
+    color: #10B981;
+    transform: scale(1.05);
+}
+
+.btn-glow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.portal-btn:hover .btn-glow {
+    opacity: 1;
+}
+
+.btn-glitch {
+    position: relative;
+    display: inline-block;
+}
+
+/* Add a subtle scanning line effect to the button */
+.portal-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.4), transparent);
+    transition: none;
+}
+
+.portal-btn:hover::after {
+    left: 100%;
+    transition: all 0.8s ease;
+}
+
+/* Let's try to match the background of the Spline scene if possible. 
+   Most Spline scenes use a specific color. Looking at the user's screenshot, it's a light gray. 
+   However, my previous implementation used #050505. 
+   I will use a transparent overlay if the background is consistent, or try to match it. */

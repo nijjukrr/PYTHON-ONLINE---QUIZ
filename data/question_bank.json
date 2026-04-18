@@ -1,0 +1,39 @@
+[
+    {"category": "Science", "difficulty": "Easy", "question": "What is the chemical symbol for Gold?", "options": ["Au", "Ag", "Fe", "Pb"], "answer": "Au"},
+    {"category": "Science", "difficulty": "Easy", "question": "What is the powerhouse of the cell?", "options": ["Nucleus", "Mitochondria", "Ribosome", "Vacuole"], "answer": "Mitochondria"},
+    {"category": "Science", "difficulty": "Medium", "question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "answer": "Mars"},
+    {"category": "Science", "difficulty": "Medium", "question": "What is the hardest natural substance on Earth?", "options": ["Gold", "Iron", "Diamond", "Quartz"], "answer": "Diamond"},
+    {"category": "Science", "difficulty": "Hard", "question": "What is the speed of light in a vacuum?", "options": ["299,792,458 m/s", "300,000,000 m/s", "150,000,000 m/s", "1,080,000,000 m/s"], "answer": "299,792,458 m/s"},
+    
+    {"category": "Math", "difficulty": "Easy", "question": "What is the value of Pi (to 2 decimal places)?", "options": ["3.12", "3.14", "3.16", "3.18"], "answer": "3.14"},
+    {"category": "Math", "difficulty": "Easy", "question": "What is 5 + 7?", "options": ["11", "12", "13", "14"], "answer": "12"},
+    {"category": "Math", "difficulty": "Medium", "question": "What is the square root of 144?", "options": ["10", "11", "12", "14"], "answer": "12"},
+    {"category": "Math", "difficulty": "Medium", "question": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "answer": "30"},
+    {"category": "Math", "difficulty": "Hard", "question": "What is the value of 'e' (Euler's number) approx?", "options": ["2.51", "2.71", "3.14", "1.61"], "answer": "2.71"},
+
+    {"category": "History", "difficulty": "Easy", "question": "Who was the first President of the United States?", "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], "answer": "George Washington"},
+    {"category": "History", "difficulty": "Medium", "question": "In which year did World War II end?", "options": ["1943", "1944", "1945", "1946"], "answer": "1945"},
+    {"category": "History", "difficulty": "Hard", "question": "Which empire was ruled by Julius Caesar?", "options": ["Greek", "Roman", "Persian", "Ottoman"], "answer": "Roman"},
+
+    {"category": "Science", "difficulty": "Easy", "question": "How many states of matter are there (basic)?", "options": ["1", "2", "3", "4"], "answer": "3"},
+    {"category": "Math", "difficulty": "Easy", "question": "Is 7 a prime number?", "options": ["Yes", "No", "Depends", "None"], "answer": "Yes"},
+    {"category": "History", "difficulty": "Easy", "question": "The Taj Mahal is located in which country?", "options": ["Pakistan", "India", "Bangladesh", "Nepal"], "answer": "India"},
+
+    {"category": "Science", "difficulty": "Easy", "question": "What part of the human body has the most bones?", "options": ["Skull", "Hand", "Foot", "Spine"], "answer": "Hand"},
+    {"category": "Science", "difficulty": "Medium", "question": "DNA stands for?", "options": ["Deoxyribose Acid", "Deoxyribonucleic Acid", "Deribonucleic Acid", "Deoxyribose Nucleus"], "answer": "Deoxyribonucleic Acid"},
+    {"category": "Science", "difficulty": "Medium", "question": "How many bones are in the adult human body?", "options": ["200", "206", "300", "250"], "answer": "206"},
+    {"category": "Science", "difficulty": "Hard", "question": "Which gas is most abundant in Earth's atmosphere?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"], "answer": "Nitrogen"},
+    
+    {"category": "Math", "difficulty": "Medium", "question": "Solve: 2x + 5 = 15. What is x?", "options": ["5", "10", "7.5", "2"], "answer": "5"},
+    {"category": "Math", "difficulty": "Hard", "question": "What is the area of a circle with radius 7 (use Pi=22/7)?", "options": ["154", "44", "49", "14"], "answer": "154"},
+    
+    {"category": "History", "difficulty": "Easy", "question": "Who painted the Mona Lisa?", "options": ["Van Gogh", "Picasso", "Da Vinci", "Michelangelo"], "answer": "Da Vinci"},
+    {"category": "History", "difficulty": "Medium", "question": "The Great Wall is located in?", "options": ["Japan", "China", "Korea", "Vietnam"], "answer": "China"},
+    {"category": "History", "difficulty": "Hard", "question": "The Magna Carta was signed in which year?", "options": ["1066", "1215", "1492", "1776"], "answer": "1215"},
+    
+    {"category": "Science", "difficulty": "Hard", "question": "Which element has the atomic number 1?", "options": ["Helium", "Hydrogen", "Lithium", "Oxygen"], "answer": "Hydrogen"},
+    {"category": "Math", "difficulty": "Easy", "question": "What is 100 divided by 4?", "options": ["20", "25", "30", "40"], "answer": "25"},
+    {"category": "History", "difficulty": "Medium", "question": "Who was the 'Iron Lady' of British politics?", "options": ["Queen Victoria", "Margaret Thatcher", "Theresa May", "Angela Merkel"], "answer": "Margaret Thatcher"},
+    {"category": "Science", "difficulty": "Medium", "question": "What is the boiling point of water in Celsius?", "options": ["0", "50", "100", "200"], "answer": "100"},
+    {"category": "Math", "difficulty": "Hard", "question": "In a right-angled triangle, what is the side opposite to the right angle called?", "options": ["Adjacent", "Hypotenuse", "Opposite", "Base"], "answer": "Hypotenuse"}
+]

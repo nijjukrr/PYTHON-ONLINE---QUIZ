@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexBot | 3D Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Embed masking directly to ensure immediate result */
+        .mask {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            width: 150px;
+            height: 50px;
+            background: #e5e5e5; /* Matching the scene's light background */
+            z-index: 1000;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="spline-container">
+        <!-- Floating Link Button -->
+        <div class="portal-overlay">
+            <a href="http://localhost:8502" class="portal-btn">
+                <span class="btn-glitch">LAUNCH PORTAL</span>
+                <div class="btn-glow"></div>
+            </a>
+        </div>
+
+        <div class="spline-wrapper">
+            <iframe src='https://my.spline.design/nexbotrobotcharacterconcept-NSKIYi103k5FemkSd8iymtnp/' frameborder='0' width='100%' height='100%'></iframe>
+        </div>
+        <!-- This div hides the spline watermark -->
+        <div class="mask"></div>
+    </div>
+</body>
+</html>
